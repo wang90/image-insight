@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Image Insight",
+  "version": "1.0",
+  "description": "在浏览器中提取图片内容的插件",
+  "permissions": [
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "app/dist/index.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
+}
