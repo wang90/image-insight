@@ -52,7 +52,7 @@ const getImageMessage = ( url:string ) => {
     })
 }
 
-const getImage = ($event)=> {
+const getImage = ($event:any)=> {
   console.log($event);
   var file = $event.target.files[0];
   var filepath = URL.createObjectURL(file);
