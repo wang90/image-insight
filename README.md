@@ -1,6 +1,6 @@
-# 纯前端识别图像内容
-
-
+# 离线前端图像识别
+Vue 版本 demo
+## 使用方式
 ```
 cd app
 npm install
@@ -11,5 +11,7 @@ npm run dev
 npm install pnpm -g
 pnpm install
 npm run dev
-···
+```
+## 底层使用原理
+[Tesseract.js]( https://github.com/naptha/tesseract.js )
 
